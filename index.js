@@ -11,7 +11,7 @@ const progress = (uploaded, total) => {
 }
 
 class QiniuPlugin {
-  constructor(options = {}) {
+  constructor (options = {}) {
     this.qiniuConfig = new qiniu.conf.Config()
 
     this.accessKey = options.accessKey
@@ -30,7 +30,7 @@ class QiniuPlugin {
     }
   }
 
-  apply(compiler) {
+  apply (compiler) {
     const mac = new qiniu.auth.digest.Mac(this.accessKey, this.secretKey)
     const qiniuConfig = this.qiniuConfig
 
@@ -113,6 +113,5 @@ class QiniuPlugin {
     })
   }
 }
-
 
 module.exports = QiniuPlugin
