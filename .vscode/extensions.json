@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+      "xyz.local-history",
+      "ionutvmi.path-autocomplete",
+      "dbaeumer.vscode-eslint",
+      "editorconfig.editorconfig"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  // 关闭向 Microsoft 发送故障报表的功能。
+  "telemetry.enableCrashReporter": false,
+  // 关闭向 Microsoft 发送使用情况数据和错误的功能。
+  "telemetry.enableTelemetry": false,
+  // 关闭 php
+  "php.validate.enable": false,
+  // 关闭 grunt 自动检测
+  "grunt.autoDetect": "off",
+  // 关闭 gulp 自动检测
+  "gulp.autoDetect": "off",
+  // 搜索优化
+  "search.followSymlinks": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.history": true
+  },
+  // 文件及文件夹优化
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.history": true,
+    "**/node_modules": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/.history/*/**": true
+  },
+  // 代码检查
+  "eslint.autoFixOnSave": true
+}
