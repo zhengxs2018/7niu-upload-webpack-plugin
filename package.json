@@ -1,6 +1,6 @@
 {
   "name": "7niu-webpack-plugin",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "基于 webpack 3.x 以上版本开发的七牛上传插件",
   "main": "index.js",
   "scripts": {
